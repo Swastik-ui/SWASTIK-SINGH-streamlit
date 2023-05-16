@@ -115,9 +115,8 @@ st.text("""The target feature is Accident_severity which is a multi-class variab
 The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. 
 The metric for evaluation will be f1-score
 """)
-
 st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/avikumart/Road-Traffic-Severity-Classification-Project)")          
   
 # run the main function        
-if _name_ == '__main__':
+if __name__ == '__main__':
   main()
